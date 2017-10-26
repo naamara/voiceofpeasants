@@ -21,11 +21,9 @@
                     {% image location.image fill-660x270-c75 as image %}
                     <img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt }}" class="" />
 
-                    <span class="title">{{ location.title }}</span>
 
                 </h1></a>
-                    <address>{{ location.address }}</address>
-                    <a href="https://google.com/maps/?q={{ location.lat_long }}" class="btn" target="_blank">Map</a>
+                   
             </div>
         {% endfor %}
     </div>
